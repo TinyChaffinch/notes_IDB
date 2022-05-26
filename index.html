@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB demo</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Заметки IndexedDB</h1>
+    </header>
+
+    <main>
+        <section class="note-display">
+            <h2>Заметки</h2>
+            <ul>
+
+            </ul>
+        </section>
+        <section class="new-note">
+            <h2>Создание новой заметки</h2>
+            <form>
+                <div>
+                    <label for="title">Заголовок</label>
+                    <input id="title" type="text" required>
+                </div>
+                <div>
+                    <label for="body">Текст</label>
+                    <input id="body" type="text" required>
+                </div>
+                <div>
+                    <button>Создать</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright TinyFinch</p>
+    </footer>
+</body>
+
+</html>
